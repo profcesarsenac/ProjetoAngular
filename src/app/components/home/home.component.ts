@@ -1,14 +1,11 @@
-import { Component } from "@angular/core";
-import { RouterOutlet } from "@angular/router";
+import { Component } from '@angular/core';
 
 @Component({
-    selector: "home-component",
-    imports: [RouterOutlet],
-    templateUrl: './home.component.html',
-    styleUrl: './home.component.css',
-    standalone: true
+  selector: 'app-home',
+  imports: [],
+  templateUrl: './home.component.html',
+  styleUrl: './home.component.css'
 })
-
-export class HomeComponent{
+export class HomeComponent {
 
 }
